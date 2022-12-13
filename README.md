@@ -6,6 +6,17 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
+First you have to install the node_modules:
+```bash
+yarn
+```
+
+```bash
+npm install
+```
+
+Then you can run this project:
+
 ```bash
 yarn dev
 ```
@@ -20,4 +31,4 @@ pnpm run dev
 
 The deployed version is at:
 
-https://nextjs-tailwindcss-custom-made-animations.vercel.app/
+https://rookas-nextjs-13-transitions.vercel.app/
