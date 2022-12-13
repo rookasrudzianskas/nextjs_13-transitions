@@ -11,7 +11,18 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <main>
+        <m.main
+        initial={{
+            opacity: 0,
+        }}
+        animate={{
+            opacity: 1,
+        }}
+        transition={{
+            duration: 0.75,
+            ease: 'easeOut'
+        }}
+        >
             <div className="my-96 p-1">
                 <h1 className="text-6xl text-center lg:text-right lg:text-9xl">Happy Pickle</h1>
             </div>
@@ -27,7 +38,7 @@ const Home: NextPage = () => {
                     <h3>Click contact for cool transition</h3>
                 </div>
             </div>
-        </main>
+        </m.main>
 
     </div>
   )
