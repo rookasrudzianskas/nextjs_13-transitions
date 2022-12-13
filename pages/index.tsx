@@ -22,6 +22,7 @@ const Home: NextPage = () => {
             duration: 0.75,
             ease: 'easeOut'
         }}
+        className="text-gray-900 absolute top-0 left-0 w-full h-full bg-orange-100 lg:px-48 px-16"
         >
             <div className="my-96 p-1">
                 <h1 className="text-6xl text-center lg:text-right lg:text-9xl">Happy Pickle</h1>
