@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion as m } from 'framer-motion';
+import {container} from "../animation";
 
 const Contact = ({}) => {
     return (
@@ -26,7 +27,7 @@ const Contact = ({}) => {
                     <h4>Find me:</h4>
                 </div>
                 <div className="lg:text-6xl text-2xl underline">
-                    <ul>
+                    <m.ul variants={container} initial="hidden" animate="show">
                         <div className="overflow-hidden">
                             <li className="pb-2">Twitter</li>
                         </div>
@@ -39,7 +40,7 @@ const Contact = ({}) => {
                         <div className="overflow-hidden">
                             <li className="pb-2">Dribble</li>
                         </div>
-                    </ul>
+                    </m.ul>
                 </div>
             </div>
         </m.main>
